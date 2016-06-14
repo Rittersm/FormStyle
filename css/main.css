@@ -1,0 +1,74 @@
+/* CSS file for W1-D2 assignment... what in god's name am I doing?*/
+
+
+form  {
+  border: 2px solid black;
+  background-color: rgb(223, 202, 137);
+  width: 600px;
+  margin:auto;
+  box-shadow: 5px 5px 5px rgb(130, 125, 128);
+}
+label {
+  color: rgb(49, 20, 154);
+  /*background-color: rgb(223, 202, 137);*/
+  display: inline-block;
+  width: 15%;
+  text-align: left;
+  vertical-align: top;
+}
+input {
+  width: 80%;
+  height: 25px;
+  margin-bottom: 5px;
+  padding-left: 10px;
+}
+input:focus {
+  /*position:absolute;
+  z-index: 1000;*/
+  width: 500px;
+  height: 25px;
+  transition: 0.3s ease;
+}
+input:hover {
+  background-color: rgb(16, 81, 162);
+}
+textarea {
+  width: 200px;
+  height: 30px;
+  padding-left: 10px;
+  box-shadow: 5px 5px 5px rgb(130, 125, 128);
+
+}
+textarea:focus {
+  position: absolute;
+  z-index: 1000;
+  width: 500px;
+  height:200px;
+  transition: 0.3s ease;
+  /*transform: translateX(100px);*/
+}
+textarea:hover {
+  background-color: rgb(16, 81, 162);
+}
+select {
+  width: 215px;
+  height: 30px;
+}
+button {
+  background-color: rgb(16, 81, 162);
+  color: white;
+  box-shadow: 5px 5px 5px rgb(130, 125, 128);
+  margin-bottom: 5px;
+}
+/*.news {
+  width: 150px;
+}*/
+.text-area {
+  min-height: 40px;
+}
+.button {
+  text-align: center;
+}
+.name, .mail {
+  box-shadow: 5px 5px 5px rgb(130, 125, 128);
+}
