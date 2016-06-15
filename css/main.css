@@ -1,74 +1,89 @@
-/* CSS file for W1-D2 assignment... what in god's name am I doing?*/
+/* CSS file for W1-D2 assignment...*/
 
-
-form  {
-  border: 2px solid black;
-  background-color: rgb(223, 202, 137);
-  width: 600px;
-  margin:auto;
-  box-shadow: 5px 5px 5px rgb(130, 125, 128);
+form {
+    border: 2px solid black;
+    background-color: rgb(223, 202, 137);
+    width: 600px;
+    margin: auto;
+    box-shadow: 5px 5px 5px rgb(130, 125, 128);
 }
 label {
-  color: rgb(49, 20, 154);
-  /*background-color: rgb(223, 202, 137);*/
-  display: inline-block;
-  width: 15%;
-  text-align: left;
-  vertical-align: top;
+    color: rgb(49, 20, 154);
+    /*background-color: rgb(223, 202, 137);*/
+    display: inline-block;
+    width: 15%;
+    text-align: left;
+    vertical-align: top;
 }
 input {
-  width: 80%;
-  height: 25px;
-  margin-bottom: 5px;
-  padding-left: 10px;
-}
-input:focus {
-  /*position:absolute;
-  z-index: 1000;*/
-  width: 500px;
-  height: 25px;
-  transition: 0.3s ease;
+    width: 80%;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
 }
 input:hover {
-  background-color: rgb(16, 81, 162);
+    background-color: rgb(16, 81, 162);
+}
+input:focus {
+    /*position:absolute;
+    z-index: 1000;
+    width: 500px;
+    height: 25px;
+    transition: 0.3s ease;*/
+    background-color: white;
 }
 textarea {
-  width: 200px;
-  height: 30px;
-  padding-left: 10px;
-  box-shadow: 5px 5px 5px rgb(130, 125, 128);
-
-}
-textarea:focus {
-  position: absolute;
-  z-index: 1000;
-  width: 500px;
-  height:200px;
-  transition: 0.3s ease;
-  /*transform: translateX(100px);*/
+    width: 200px;
+    height: 30px;
+    padding-left: 10px;
+    box-shadow: 5px 5px 5px rgb(130, 125, 128);
 }
 textarea:hover {
-  background-color: rgb(16, 81, 162);
+    background-color: rgb(16, 81, 162);
+}
+textarea:focus {
+    position: absolute;
+    z-index: 1000;
+    width: 500px;
+    height: 200px;
+    transition: 0.3s ease;
+    background-color: white;
+    /*transform: translateX(100px);*/
 }
 select {
-  width: 215px;
-  height: 30px;
+    width: 80%;
+    height: 30px;
 }
+/* I have no idea how to implement this, planned on toying with it but could never get it to take affect*/
+
+/*input [type="hidden"]+[name="junk_optin"]+[value="n"]/>span,
+input [type="checkbox"]+[id="junk_optin"]+[name="junk_optin"]+[value="y"]/>span{
+  display          : inline-block;
+  width            : 0.875em;
+  height           : 0.875em;
+  margin           : 0.25em 0.5em 0.25em 0.25em;
+  border           : 0.0625em solid rgb(192,192,192);
+  border-radius    : 0.25em;
+  background       : rgb(224,224,224);
+  background-image : linear-gradient(rgb(240,240,240),rgb(224,224,224));
+  vertical-align   : bottom;
+}*/
 button {
-  background-color: rgb(16, 81, 162);
-  color: white;
-  box-shadow: 5px 5px 5px rgb(130, 125, 128);
-  margin-bottom: 5px;
+    background-color: rgb(16, 81, 162);
+    color: white;
+    box-shadow: 5px 5px 5px rgb(130, 125, 128);
+    margin-bottom: 5px;
+    width: 100%;
 }
 /*.news {
   width: 150px;
 }*/
 .text-area {
-  min-height: 40px;
+    min-height: 40px;
 }
 .button {
-  text-align: center;
+    text-align: center;
 }
 .name, .mail {
-  box-shadow: 5px 5px 5px rgb(130, 125, 128);
+    box-shadow: 5px 5px 5px rgb(130, 125, 128);
 }
